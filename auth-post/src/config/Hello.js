@@ -7,3 +7,7 @@ const hello = () => {
 const greet = (name) => {
     return`Hello ${name}!`;
 }
+
+const goodBye = () => {
+    console.log("Good Bye!");
+}

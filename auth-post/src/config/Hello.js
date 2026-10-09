@@ -15,3 +15,11 @@ const goodBye = () => {
 const welcome = (name) => {
     alert(`Welcome $(name)!`);
 }
+
+const helloWorld = () => {
+    console.log("Hello World!");
+}
+
+const sayHi = (name) => {
+    return `Hi ${name}!`;
+}

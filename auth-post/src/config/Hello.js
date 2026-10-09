@@ -23,3 +23,7 @@ const helloWorld = () => {
 const sayHi = (name) => {
     return `Hi ${name}!`;
 }
+
+const sayGoodBye = (name) => {
+    console.log(`Good Bye ${name}!`);
+}

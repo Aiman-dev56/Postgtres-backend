@@ -27,3 +27,8 @@ const sayHi = (name) => {
 const sayGoodBye = (name) => {
     console.log(`Good Bye ${name}!`);
 }
+
+const RegisterEmail = "aimana@123";
+
+const RegisterName = "Aiman";
+

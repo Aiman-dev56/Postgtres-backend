@@ -32,3 +32,12 @@ const RegisterEmail = "aimana@123";
 
 const RegisterName = "Aiman";
 
+const NewUserEmail = "aimana@123";
+
+if (NewUserEmail === RegisterEmail) {
+    return `Welcome back ${RegisterName}!`;
+} else {
+    return "Register Yourself first!";;
+}
+
+

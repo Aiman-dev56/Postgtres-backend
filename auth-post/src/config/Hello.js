@@ -58,3 +58,9 @@ var user = {
     email: "aiman@123",
     password: "123456"
 }
+
+const greeting = (user) => {
+    return`Hello ${user.name}!
+    Your email is ${user.email} 
+    and your password is ${user.password}`;
+}

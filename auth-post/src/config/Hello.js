@@ -40,4 +40,21 @@ if (NewUserEmail === RegisterEmail) {
     return "Register Yourself first!";;
 }
 
+if(NewUserEmail === RegisterEmail) {
+    console.log(`Welcome back ${RegisterName}!`);
+}
 
+const Password = "123456";
+
+const NewUserPassword = "123456";
+
+if(Password === NewUserPassword) {
+    console.log("Password is correct!");
+}
+
+
+var user = {
+    name: "Aiman",
+    email: "aiman@123",
+    password: "123456"
+}
